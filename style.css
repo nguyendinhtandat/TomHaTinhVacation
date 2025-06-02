@@ -1,0 +1,181 @@
+/*heading/title*/
+h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    margin-top: -550px;
+    text-transform: uppercase;
+}
+
+/*all images in the website*/
+img{
+    width: 350px;
+    height: 450px;
+    border-radius: 50px;
+}
+
+/*The body of the blog*/
+.informations{
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    margin-top: 30px;
+    font-size: 23px;
+    border: 2px solid #519fff;
+    background-color: #519fff;
+    border-radius: 40px;
+    width: 1250px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    margin-left: 50px;
+}
+
+html{
+    background-color: #81b9ff;
+    overflow-x: hidden;
+}
+
+/*visuals*/
+#flag{
+    border: 2px solid rgb(255, 0, 0);
+    width: 100px;
+    height: 70px;
+    background-color: red;
+}
+
+#star{
+  width: 50px;  
+  aspect-ratio: 1;
+  background: #F8CA00;
+  clip-path: polygon(50% 0,
+    calc(50%*(1 + sin(.4turn))) calc(50%*(1 - cos(.4turn))),
+    calc(50%*(1 - sin(.2turn))) calc(50%*(1 - cos(.2turn))),
+    calc(50%*(1 + sin(.2turn))) calc(50%*(1 - cos(.2turn))),
+    calc(50%*(1 - sin(.4turn))) calc(50%*(1 - cos(.4turn))) 
+   ); 
+   transform: translate(27px, -60px);
+}
+
+.countryflag{
+    margin-left: 650px;
+    transform: translate(0px, 50px);
+}
+
+/*the main body texts*/
+#info1, #info2, #info4, #info5, #info6, #info7{
+    width: 1150px;
+}
+
+/*special design layouts*/
+#image1{
+    display: inline;
+    margin-left: 700px;
+    margin-top: -280px;
+}
+
+#info3{
+    width: 680px;
+    transform: translate(0px, 60px);
+}
+
+/*the left cloud visuals: -160*/
+#cloud-left{
+    transform: translate(-160px, -35px) scale(0.6);
+}
+
+#circlel1{
+    border: 2px solid white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#circlel2{
+    border: 2px solid white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transform: translate(40px, -90px);
+    background-color: white;
+}
+
+#circlel3{
+    border: 2px solid white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    transform:translate(80px, -149px);
+    background-color: white;
+}
+
+#circlel4{
+    border: 2px solid white;
+    width: 90px;
+    height: 60px;
+    border-radius: 50%;
+    transform:translate(31px, -195px);
+    background-color: white;
+}
+
+/*the right cloud 900px*/
+#cloud-right{
+    transform: translate(900px, -320px) scale(0.6);
+}
+#circler1{
+    border: 2px solid white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#circler2{
+    border: 2px solid white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    transform:translate(90px, -73px);
+}
+
+#circler3{
+    border: 2px solid white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    transform: translate(47px, -165px);
+}
+
+#circler4{
+    border: 2px solid white;
+    width: 90px;
+    height: 60px;
+    border-radius: 50%;
+    transform:translate(37px, -195px);
+    background-color: white;
+}
+
+#button{
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    background-color: #348fff;
+    border: 2px solid #127dff;
+    width: 145px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 30px;
+    position: sticky;
+    top: 20px;
+    z-index: 20; 
+}
+
+#button:hover{
+    color: #ffffff;
+    background-color: #6daeff;
+    border: 2px solid #55a2ff;
+    box-shadow: 0px 0px 15px 1px #55a2ff;
+}
